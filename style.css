@@ -1,0 +1,43 @@
+.body {
+    width: 0ch;
+    background-image: url(k.jpg);
+    background-size: 100%;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    animation-duration: 15s;
+    animation-name: back;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 40pt;
+}
+@keyframes back {
+    0% {
+        background-image: url(bck.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    25% {
+        background-image: url(4k2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    50% {
+        background-image: url(4k3.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    75% {
+        background-image: url(4k4.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    100% {
+        background-image: url(k.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
